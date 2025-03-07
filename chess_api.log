@@ -1,0 +1,351 @@
+2025-03-07 12:01:08,913 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-03-07 12:01:08,914 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:01:14,358 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:14] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:14,373 - chess_api - INFO - Processing move sequence: []
+2025-03-07 12:01:15,452 - chess_api - INFO - Best move found: {'uci': 'e2e4', 'san': 'e4'}
+2025-03-07 12:01:15,454 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:15] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:15,753 - chess_api - INFO - Processing move sequence: ['e4']
+2025-03-07 12:01:16,815 - chess_api - INFO - Best move found: {'uci': 'e7e5', 'san': 'e5'}
+2025-03-07 12:01:16,817 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:16] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:19,773 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:19] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:19,790 - chess_api - INFO - Processing move sequence: ['e4', 'd6']
+2025-03-07 12:01:20,854 - chess_api - INFO - Best move found: {'uci': 'd2d4', 'san': 'd4'}
+2025-03-07 12:01:20,855 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:20] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:20,906 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4']
+2025-03-07 12:01:21,987 - chess_api - INFO - Best move found: {'uci': 'g8f6', 'san': 'Nf6'}
+2025-03-07 12:01:21,988 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:21] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:24,500 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6']
+2025-03-07 12:01:25,560 - chess_api - INFO - Best move found: {'uci': 'b1c3', 'san': 'Nc3'}
+2025-03-07 12:01:25,560 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:25] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:25,618 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:25] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:25,626 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3']
+2025-03-07 12:01:26,687 - chess_api - INFO - Best move found: {'uci': 'g7g6', 'san': 'g6'}
+2025-03-07 12:01:26,689 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:26] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:29,732 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6']
+2025-03-07 12:01:30,795 - chess_api - INFO - Best move found: {'uci': 'f2f4', 'san': 'f4'}
+2025-03-07 12:01:30,796 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:30] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:30,857 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:30] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:30,869 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4']
+2025-03-07 12:01:31,937 - chess_api - INFO - Best move found: {'uci': 'g7g6', 'san': 'g6'}
+2025-03-07 12:01:31,939 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:31] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:33,937 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7']
+2025-03-07 12:01:35,005 - chess_api - INFO - Best move found: {'uci': 'f4f5', 'san': 'f5'}
+2025-03-07 12:01:35,007 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:35] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:35,077 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5']
+2025-03-07 12:01:36,156 - chess_api - INFO - Best move found: {'uci': 'e6f5', 'san': 'Bxf5'}
+2025-03-07 12:01:36,157 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:36] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:38,529 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:38] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:38,542 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6']
+2025-03-07 12:01:39,604 - chess_api - INFO - Best move found: {'uci': 'f5e6', 'san': 'fxe6+'}
+2025-03-07 12:01:39,605 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:39] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:39,656 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+']
+2025-03-07 12:01:40,722 - chess_api - INFO - Best move found: {'uci': 'f7e6', 'san': 'fxe6'}
+2025-03-07 12:01:40,723 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:40] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:44,048 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:44] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:44,059 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6']
+2025-03-07 12:01:45,126 - chess_api - INFO - Best move found: {'uci': 'g1f3', 'san': 'Nf3'}
+2025-03-07 12:01:45,126 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:45] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:45,180 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3']
+2025-03-07 12:01:46,253 - chess_api - INFO - Best move found: {'uci': 'f8g7', 'san': 'Bg7'}
+2025-03-07 12:01:46,254 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:46] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:48,724 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5']
+2025-03-07 12:01:49,790 - chess_api - INFO - Best move found: {'uci': 'c1g5', 'san': 'Bxg5'}
+2025-03-07 12:01:49,791 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:49] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:49,859 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:49] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:49,876 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5']
+2025-03-07 12:01:50,958 - chess_api - INFO - Best move found: {'uci': 'f8g7', 'san': 'Bg7'}
+2025-03-07 12:01:50,959 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:50] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:55,538 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:55] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:01:55,560 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6']
+2025-03-07 12:01:56,643 - chess_api - INFO - Best move found: {'uci': 'e4e5', 'san': 'e5'}
+2025-03-07 12:01:56,645 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:56] "POST / HTTP/1.1" 200 -
+2025-03-07 12:01:56,696 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5']
+2025-03-07 12:01:57,771 - chess_api - INFO - Best move found: {'uci': 'f6d5', 'san': 'Nd5'}
+2025-03-07 12:01:57,772 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:01:57] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:01,463 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:01] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:02:01,471 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5']
+2025-03-07 12:02:02,546 - chess_api - INFO - Best move found: {'uci': 'f1c4', 'san': 'Bc4'}
+2025-03-07 12:02:02,548 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:02] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:02,591 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4']
+2025-03-07 12:02:03,662 - chess_api - INFO - Best move found: {'uci': 'h8g8', 'san': 'Rg8'}
+2025-03-07 12:02:03,663 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:03] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:06,076 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6']
+2025-03-07 12:02:07,152 - chess_api - INFO - Best move found: {'uci': 'g5d2', 'san': 'Bd2'}
+2025-03-07 12:02:07,152 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:07] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:07,202 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:07] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:02:07,217 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2']
+2025-03-07 12:02:08,286 - chess_api - INFO - Best move found: {'uci': 'f8g7', 'san': 'Bg7'}
+2025-03-07 12:02:08,287 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:08] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:11,956 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8']
+2025-03-07 12:02:13,023 - chess_api - INFO - Best move found: {'uci': 'e1g1', 'san': 'O-O'}
+2025-03-07 12:02:13,026 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:13] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:13,085 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:13] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:02:13,097 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O']
+2025-03-07 12:02:14,169 - chess_api - INFO - Best move found: {'uci': 'b8d7', 'san': 'Nd7'}
+2025-03-07 12:02:14,170 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:14] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:17,044 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5']
+2025-03-07 12:02:18,121 - chess_api - INFO - Best move found: {'uci': 'f3e5', 'san': 'Nxe5'}
+2025-03-07 12:02:18,122 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:18] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:18,188 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:18] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:02:18,206 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5']
+2025-03-07 12:02:19,289 - chess_api - INFO - Best move found: {'uci': 'd8b6', 'san': 'Qb6'}
+2025-03-07 12:02:19,290 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:19] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:22,295 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8']
+2025-03-07 12:02:23,372 - chess_api - INFO - Best move found: {'uci': 'd1h5', 'san': 'Qh5+'}
+2025-03-07 12:02:23,373 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:23] "POST / HTTP/1.1" 200 -
+2025-03-07 12:02:23,456 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:23] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:02:23,473 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+']
+2025-03-07 12:02:24,585 - chess_api - INFO - Best move found: {'uci': 'e8d8', 'san': 'Kd8'}
+2025-03-07 12:02:24,586 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:02:24] "POST / HTTP/1.1" 200 -
+2025-03-07 12:03:56,076 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:03:56] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:03:56,090 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8']
+2025-03-07 12:03:57,618 - chess_api - INFO - Best move found: {'uci': 'e5f7', 'san': 'Nf7+'}
+2025-03-07 12:03:57,620 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:03:57] "POST / HTTP/1.1" 200 -
+2025-03-07 12:03:57,716 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+']
+2025-03-07 12:03:58,829 - chess_api - INFO - Best move found: {'uci': 'd8d7', 'san': 'Kd7'}
+2025-03-07 12:03:58,833 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:03:58] "POST / HTTP/1.1" 200 -
+2025-03-07 12:04:01,754 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:04:01] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:04:01,765 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7']
+2025-03-07 12:04:02,849 - chess_api - INFO - Best move found: {'uci': 'f7h8', 'san': 'Nxh8'}
+2025-03-07 12:04:02,853 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:04:02] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:10,085 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:10] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:06:10,095 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5']
+2025-03-07 12:06:11,754 - chess_api - INFO - Best move found: {'uci': 'c3d5', 'san': 'Nxd5'}
+2025-03-07 12:06:11,755 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:11] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:11,832 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5']
+2025-03-07 12:06:13,016 - chess_api - INFO - Best move found: {'uci': 'b5c4', 'san': 'bxc4'}
+2025-03-07 12:06:13,018 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:13] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:19,917 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:19] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:06:19,938 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4']
+2025-03-07 12:06:21,073 - chess_api - INFO - Best move found: {'uci': 'd5e3', 'san': 'Ne3'}
+2025-03-07 12:06:21,074 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:21] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:24,402 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7']
+2025-03-07 12:06:25,502 - chess_api - INFO - Best move found: {'uci': 'h8g6', 'san': 'Ng6'}
+2025-03-07 12:06:25,502 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:25] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:30,251 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:30] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:06:30,259 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4']
+2025-03-07 12:06:31,337 - chess_api - INFO - Best move found: {'uci': 'a1d1', 'san': 'Rad1'}
+2025-03-07 12:06:31,338 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:31] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:34,693 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8']
+2025-03-07 12:06:35,783 - chess_api - INFO - Best move found: {'uci': 'd2c3', 'san': 'Bc3'}
+2025-03-07 12:06:35,784 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:35] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:38,324 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:38] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:06:38,337 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6']
+2025-03-07 12:06:39,423 - chess_api - INFO - Best move found: {'uci': 'd1d4', 'san': 'Rxd4+'}
+2025-03-07 12:06:39,426 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:39] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:41,422 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7']
+2025-03-07 12:06:42,513 - chess_api - INFO - Best move found: {'uci': 'c3a5', 'san': 'Ba5+'}
+2025-03-07 12:06:42,514 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:42] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:45,495 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:45] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:06:45,503 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7']
+2025-03-07 12:06:46,600 - chess_api - INFO - Best move found: {'uci': 'd4d8', 'san': 'Rxd8'}
+2025-03-07 12:06:46,600 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:46] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:49,783 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8']
+2025-03-07 12:06:50,884 - chess_api - INFO - Best move found: {'uci': 'a5d8', 'san': 'Bxd8'}
+2025-03-07 12:06:50,884 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:50] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:54,094 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:54] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:06:54,102 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8']
+2025-03-07 12:06:55,207 - chess_api - INFO - Best move found: {'uci': 'e3c4', 'san': 'Nxc4'}
+2025-03-07 12:06:55,209 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:55] "POST / HTTP/1.1" 200 -
+2025-03-07 12:06:57,392 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8']
+2025-03-07 12:06:58,481 - chess_api - INFO - Best move found: {'uci': 'h5a5', 'san': 'Qa5+'}
+2025-03-07 12:06:58,482 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:06:58] "POST / HTTP/1.1" 200 -
+2025-03-07 12:07:01,564 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:01] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:07:01,583 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7']
+2025-03-07 12:07:01,714 - chess_api - INFO - Best move found: {'uci': 'f1f8', 'san': 'Rf8+'}
+2025-03-07 12:07:01,715 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:01] "POST / HTTP/1.1" 200 -
+2025-03-07 12:07:04,637 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7', 'Rf8+', 'Kd7']
+2025-03-07 12:07:04,730 - chess_api - INFO - Best move found: {'uci': 'g6e5', 'san': 'Nge5#'}
+2025-03-07 12:07:04,731 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:04] "POST / HTTP/1.1" 200 -
+2025-03-07 12:07:10,733 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:10] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:07:10,764 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7', 'Rf8+', 'Kd7', 'Nge5#']
+2025-03-07 12:07:10,959 - chess_api - ERROR - Engine error: No move found
+2025-03-07 12:07:10,966 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:10] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-07 12:07:19,460 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:19] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:07:19,509 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7', 'Rf8+', 'Kd7', 'Nge5#']
+2025-03-07 12:07:19,981 - chess_api - ERROR - Engine error: No move found
+2025-03-07 12:07:19,983 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:19] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-07 12:07:21,090 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7', 'Rf8+', 'Kd7', 'Nge5#']
+2025-03-07 12:07:21,322 - chess_api - ERROR - Engine error: No move found
+2025-03-07 12:07:21,325 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:21] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-07 12:07:22,799 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7', 'Rf8+', 'Kd7', 'Nge5#']
+2025-03-07 12:07:22,877 - chess_api - ERROR - Engine error: No move found
+2025-03-07 12:07:22,878 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:22] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-07 12:07:24,072 - chess_api - INFO - Processing move sequence: ['e4', 'd6', 'd4', 'Be6', 'Nc3', 'Nf6', 'f4', 'Kd7', 'f5', 'g6', 'fxe6+', 'fxe6', 'Nf3', 'g5', 'Bxg5', 'c6', 'e5', 'Nd5', 'Bc4', 'h6', 'Bd2', 'Ke8', 'O-O', 'dxe5', 'Nxe5', 'Qc8', 'Qh5+', 'Kd8', 'Nf7+', 'Kd7', 'Nxh8', 'b5', 'Nxd5', 'bxc4', 'Ne3', 'Bg7', 'Ng6', 'Bxd4', 'Rad1', 'Qd8', 'Bc3', 'Na6', 'Rxd4+', 'Kc7', 'Ba5+', 'Kb7', 'Rxd8', 'Rxd8', 'Bxd8', 'Kc8', 'Nxc4', 'Kxd8', 'Qa5+', 'Nc7', 'Rf8+', 'Kd7', 'Nge5#']
+2025-03-07 12:07:24,202 - chess_api - ERROR - Engine error: No move found
+2025-03-07 12:07:24,204 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:07:24] "[35m[1mPOST / HTTP/1.1[0m" 500 -
+2025-03-07 12:08:17,692 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-03-07 12:08:17,692 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:12:03,223 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-03-07 12:12:03,224 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:14:06,258 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-03-07 12:14:06,259 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:14:52,874 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-03-07 12:14:52,875 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:15:05,550 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.6:5000
+2025-03-07 12:15:05,550 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-07 12:15:20,632 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:20] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:15:20,662 - chess_api - INFO - Processing move sequence: []
+2025-03-07 12:15:25,753 - chess_api - INFO - Best move found: {'uci': 'e2e4', 'san': 'e4'}
+2025-03-07 12:15:25,754 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:25] "POST / HTTP/1.1" 200 -
+2025-03-07 12:15:29,348 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:29] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:15:29,366 - chess_api - INFO - Processing move sequence: ['e4', 'e5']
+2025-03-07 12:15:34,435 - chess_api - INFO - Best move found: {'uci': 'g1f3', 'san': 'Nf3'}
+2025-03-07 12:15:34,436 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:34] "POST / HTTP/1.1" 200 -
+2025-03-07 12:15:36,487 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:36] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:15:36,499 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6']
+2025-03-07 12:15:41,555 - chess_api - INFO - Best move found: {'uci': 'f1b5', 'san': 'Bb5'}
+2025-03-07 12:15:41,557 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:41] "POST / HTTP/1.1" 200 -
+2025-03-07 12:15:44,334 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:44] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:15:44,346 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6']
+2025-03-07 12:15:49,400 - chess_api - INFO - Best move found: {'uci': 'b5a4', 'san': 'Ba4'}
+2025-03-07 12:15:49,400 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:49] "POST / HTTP/1.1" 200 -
+2025-03-07 12:15:51,842 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:51] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:15:51,864 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6']
+2025-03-07 12:15:56,930 - chess_api - INFO - Best move found: {'uci': 'e1g1', 'san': 'O-O'}
+2025-03-07 12:15:56,931 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:56] "POST / HTTP/1.1" 200 -
+2025-03-07 12:15:59,434 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:15:59] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:15:59,445 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7']
+2025-03-07 12:16:04,515 - chess_api - INFO - Best move found: {'uci': 'f1e1', 'san': 'Re1'}
+2025-03-07 12:16:04,517 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:04] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:07,175 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:07] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:07,184 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5']
+2025-03-07 12:16:12,254 - chess_api - INFO - Best move found: {'uci': 'a4b3', 'san': 'Bb3'}
+2025-03-07 12:16:12,254 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:12] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:14,283 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:14] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:14,295 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6']
+2025-03-07 12:16:19,356 - chess_api - INFO - Best move found: {'uci': 'c2c3', 'san': 'c3'}
+2025-03-07 12:16:19,357 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:19] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:22,029 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:22] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:22,046 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O']
+2025-03-07 12:16:27,109 - chess_api - INFO - Best move found: {'uci': 'h2h3', 'san': 'h3'}
+2025-03-07 12:16:27,110 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:27] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:30,501 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:30] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:30,511 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5']
+2025-03-07 12:16:35,579 - chess_api - INFO - Best move found: {'uci': 'b3c2', 'san': 'Bc2'}
+2025-03-07 12:16:35,581 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:35] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:37,493 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:37] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:37,504 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5']
+2025-03-07 12:16:42,568 - chess_api - INFO - Best move found: {'uci': 'd2d4', 'san': 'd4'}
+2025-03-07 12:16:42,568 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:42] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:45,480 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:45] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:45,490 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7']
+2025-03-07 12:16:50,560 - chess_api - INFO - Best move found: {'uci': 'd4d5', 'san': 'd5'}
+2025-03-07 12:16:50,561 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:50] "POST / HTTP/1.1" 200 -
+2025-03-07 12:16:53,125 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:53] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:16:53,137 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7']
+2025-03-07 12:16:58,218 - chess_api - INFO - Best move found: {'uci': 'b2b3', 'san': 'b3'}
+2025-03-07 12:16:58,218 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:16:58] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:01,274 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:01] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:01,287 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8']
+2025-03-07 12:17:06,362 - chess_api - INFO - Best move found: {'uci': 'g1h2', 'san': 'Kh2'}
+2025-03-07 12:17:06,364 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:06] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:09,161 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:09] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:09,170 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6']
+2025-03-07 12:17:14,248 - chess_api - INFO - Best move found: {'uci': 'c1e3', 'san': 'Be3'}
+2025-03-07 12:17:14,249 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:14] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:17,128 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:17] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:17,138 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8']
+2025-03-07 12:17:22,218 - chess_api - INFO - Best move found: {'uci': 'b1d2', 'san': 'Nbd2'}
+2025-03-07 12:17:22,218 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:22] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:24,144 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:24] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:24,153 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8']
+2025-03-07 12:17:29,231 - chess_api - INFO - Best move found: {'uci': 'd2f1', 'san': 'Nf1'}
+2025-03-07 12:17:29,231 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:29] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:32,394 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:32] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:32,403 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7']
+2025-03-07 12:17:37,480 - chess_api - INFO - Best move found: {'uci': 'g2g4', 'san': 'g4'}
+2025-03-07 12:17:37,481 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:37] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:40,504 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:40] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:40,517 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4']
+2025-03-07 12:17:45,609 - chess_api - INFO - Best move found: {'uci': 'b3b4', 'san': 'b4'}
+2025-03-07 12:17:45,610 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:45] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:47,651 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:47] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:47,662 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5']
+2025-03-07 12:17:52,742 - chess_api - INFO - Best move found: {'uci': 'f1g3', 'san': 'Ng3'}
+2025-03-07 12:17:52,742 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:52] "POST / HTTP/1.1" 200 -
+2025-03-07 12:17:55,041 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:17:55] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:17:55,052 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4']
+2025-03-07 12:18:00,123 - chess_api - INFO - Best move found: {'uci': 'c3b4', 'san': 'cxb4'}
+2025-03-07 12:18:00,124 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:00] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:02,534 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:02] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:02,547 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3']
+2025-03-07 12:18:07,622 - chess_api - INFO - Best move found: {'uci': 'g4g5', 'san': 'g5'}
+2025-03-07 12:18:07,622 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:07] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:10,993 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:10] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:11,006 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5']
+2025-03-07 12:18:16,133 - chess_api - INFO - Best move found: {'uci': 'f3g5', 'san': 'Nxg5'}
+2025-03-07 12:18:16,135 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:16] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:18,860 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:18] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:18,875 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8']
+2025-03-07 12:18:23,964 - chess_api - INFO - Best move found: {'uci': 'e1g1', 'san': 'Rg1'}
+2025-03-07 12:18:23,966 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:23] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:27,093 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:27] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:27,106 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8']
+2025-03-07 12:18:32,202 - chess_api - INFO - Best move found: {'uci': 'g3h5', 'san': 'Nh5'}
+2025-03-07 12:18:32,203 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:32] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:35,554 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:35] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:35,564 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6']
+2025-03-07 12:18:40,658 - chess_api - INFO - Best move found: {'uci': 'd1f3', 'san': 'Qf3'}
+2025-03-07 12:18:40,659 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:40] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:43,720 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:43] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:43,735 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8']
+2025-03-07 12:18:48,838 - chess_api - INFO - Best move found: {'uci': 'g5e6', 'san': 'Ne6'}
+2025-03-07 12:18:48,838 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:48] "POST / HTTP/1.1" 200 -
+2025-03-07 12:18:52,176 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:52] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:18:52,189 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6']
+2025-03-07 12:18:57,290 - chess_api - INFO - Best move found: {'uci': 'd5e6', 'san': 'dxe6'}
+2025-03-07 12:18:57,292 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:18:57] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:00,955 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:00] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:00,966 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8']
+2025-03-07 12:19:06,057 - chess_api - INFO - Best move found: {'uci': 'c2b3', 'san': 'Bb3'}
+2025-03-07 12:19:06,058 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:06] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:09,149 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:09] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:09,199 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4']
+2025-03-07 12:19:14,358 - chess_api - INFO - Best move found: {'uci': 'a2a4', 'san': 'a4'}
+2025-03-07 12:19:14,360 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:14] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:18,287 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:18] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:18,301 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3']
+2025-03-07 12:19:23,378 - chess_api - INFO - Best move found: {'uci': 'c8c4', 'san': 'Rc4'}
+2025-03-07 12:19:23,379 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:23] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:31,063 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:31] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:31,069 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4']
+2025-03-07 12:19:36,150 - chess_api - INFO - Best move found: {'uci': 'a2a4', 'san': 'a4'}
+2025-03-07 12:19:36,151 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:36] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:39,397 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:39] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:39,415 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4', 'a4', 'Kh7']
+2025-03-07 12:19:44,506 - chess_api - INFO - Best move found: {'uci': 'e6f7', 'san': 'exf7'}
+2025-03-07 12:19:44,507 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:44] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:47,903 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:47] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:47,914 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4', 'a4', 'Kh7', 'exf7', 'Nxh5']
+2025-03-07 12:19:53,020 - chess_api - INFO - Best move found: {'uci': 'g1g6', 'san': 'Rxg6'}
+2025-03-07 12:19:53,021 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:53] "POST / HTTP/1.1" 200 -
+2025-03-07 12:19:55,627 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:19:55] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:19:55,636 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4', 'a4', 'Kh7', 'exf7', 'Nxh5', 'Rxg6', 'Nf4']
+2025-03-07 12:20:00,730 - chess_api - INFO - Best move found: {'uci': 'a1g1', 'san': 'Rag1'}
+2025-03-07 12:20:00,731 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:20:00] "POST / HTTP/1.1" 200 -
+2025-03-07 12:20:03,547 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:20:03] "OPTIONS / HTTP/1.1" 200 -
+2025-03-07 12:20:03,561 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4', 'a4', 'Kh7', 'exf7', 'Nxh5', 'Rxg6', 'Nf4', 'Rag1', 'bxa4']
+2025-03-07 12:20:03,671 - chess_api - INFO - Best move found: {'uci': 'f3h5', 'san': 'Qh5+'}
+2025-03-07 12:20:03,672 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:20:03] "POST / HTTP/1.1" 200 -
+2025-03-07 12:20:06,321 - chess_api - INFO - Processing move sequence: ['e4', 'e5', 'Nf3', 'Nc6', 'Bb5', 'a6', 'Ba4', 'Nf6', 'O-O', 'Be7', 'Re1', 'b5', 'Bb3', 'd6', 'c3', 'O-O', 'h3', 'Na5', 'Bc2', 'c5', 'd4', 'Qc7', 'd5', 'Bd7', 'b3', 'Rad8', 'Kh2', 'h6', 'Be3', 'Rfe8', 'Nbd2', 'Kh8', 'Nf1', 'Nb7', 'g4', 'c4', 'b4', 'a5', 'Ng3', 'axb4', 'cxb4', 'c3', 'g5', 'hxg5', 'Nxg5', 'Kg8', 'Rg1', 'Rc8', 'Nh5', 'g6', 'Qf3', 'Qd8', 'Ne6', 'Bxe6', 'dxe6', 'Rf8', 'Bb3', 'Rc4', 'a4', 'Kh7', 'exf7', 'Nxh5', 'Rxg6', 'Nf4', 'Rag1', 'bxa4', 'Qh5+', 'Nxh5']
+2025-03-07 12:20:06,422 - chess_api - INFO - Best move found: {'uci': 'g6h6', 'san': 'Rh6#'}
+2025-03-07 12:20:06,423 - werkzeug - INFO - 127.0.0.1 - - [07/Mar/2025 12:20:06] "POST / HTTP/1.1" 200 -
